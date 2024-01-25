@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom,#000000,#120c0c, #150303, #552121 ); /* Gradiente do verde para o preto */
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    width: 400px; /* ou qualquer valor desejado */
+    height: 300; /* ou qualquer valor desejado */
+    padding: 5px;
+}
+
+
+#logo-section {
+    text-align: center;
+}
+
+#logo-section img {
+    width: 500px; /* ou qualquer valor desejado */
+    height: 100px;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #a80606;
+    color: #ffffff; /* Verde mais escuro */
+    text-decoration: none;
+    border: 2px solid #000000; /* Verde mais escuro */
+    border-radius: 5px;
+}
+
+#banner {
+    background: linear-gradient(to bottom,#000000, #6f0606, );/* Cor de fundo do banner */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #a80606;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Adicione isso ao seu arquivo style.css */
+
+footer {
+    background-color: #000000; /* Cor de fundo do footer */
+    color: white; /* Cor do texto no footer */
+    padding: 5px; /* Espaçamento interno no footer */
+    text-align: center;
+    font-size: 14px; /* Tamanho da fonte no footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+

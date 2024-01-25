@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Ideias Sustentáveis</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Projeto Ideias Sustentáveis</h1>
+        <p>Compartilhe suas ideias de produtos sustentáveis conosco!</p>
+
+    </header>
+
+    <section id="banner">
+        <img src="./imagens/InjectoX-banner .png" alt="Banner">
+    </section>
+
+
+
+    <section id="form-section">
+        <h2>Compartilhe Sua Ideia</h2>
+        <form action="./submit_form.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="contato">Contato (E-mail ou Telefone):</label>
+            <input type="text" id="contato" name="contato" required>
+
+            <label for="descricao-ideia">Descrição da Ideia do Produto:</label>
+            <textarea id="descricao-ideia" name="descricao-ideia" rows="4" required></textarea>
+
+            <label for="tipo-produto">Tipo de Produto:</label>
+            <select id="tipo-produto" name="tipo-produto" required>
+                <option value="reciclavel">Produto Reciclável</option>
+                <option value="reutilizavel">Produto Reutilizável</option>
+                <option value="reutilizavel">Produto Sustentavel</option>
+                <!-- Adicione mais opções se precisa -->
+            </select>
+
+            <label for="solucao">Solução que o Produto Oferece:</label>
+            <textarea id="solucao" name="solucao" rows="4" required></textarea>
+
+            <label for="descricao-problema">Descrição do Problema que o Produto Resolve:</label>
+            <textarea id="descricao-problema" name="descricao-problema" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="instructions">
+        <a href="dicas.html" class="cta-button">Instruções e Dicas</a>
+        <p>Forneça aqui algumas instruções e dicas para orientar os visitantes.</p>
+    </section>
+
+    <footer>
+        <p>Entre em contato conosco para mais informações: atendimento@sauloreciclaveis.com</p>
+    </footer>
+
+</body>
+
+</html>
